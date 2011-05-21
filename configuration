@@ -1,0 +1,9 @@
+{
+  "name": "Keleos",
+  "description": "Optimisez la performance de votre officine",
+  "menu": [
+    {"name": "Services", "link": "/services"},
+    {"name": "Conseils", "link": "/conseils"},
+    {"name": "Formation", "link": "/formation"},
+  ]
+}
