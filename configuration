@@ -4,6 +4,6 @@
   "menu": [
     {"name": "Services", "link": "/services"},
     {"name": "Conseils", "link": "/conseils"},
-    {"name": "Formation", "link": "/formation"},
+    {"name": "Formation", "link": "/formation"}
   ]
 }
