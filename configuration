@@ -2,8 +2,9 @@
   "name": "Keleos",
   "description": "Optimisez la performance de votre officine",
   "menu": [
-    {"name": "Services", "link": "/services"},
-    {"name": "Conseils", "link": "/conseils"},
-    {"name": "Formation", "link": "/formation"}
+    {"name": "Accueil", "link": "/home"},
+    {"name": "À propos", "link": "/apropos"},
+    {"name": "Conseils & Formations", "link": "/conseils"},
+    {"name": "Contact", "link": "/contact"}
   ]
 }

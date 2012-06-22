@@ -1,0 +1,286 @@
+/*
+  ---------------
+  - HTML / Body -
+  ---------------
+*/
+html {
+  background: white;
+}
+
+body {
+  background: url(img/back.jpg) repeat-x 0 100%;
+  border: 0;
+  border-radius: 0;
+  font-family: Arial, Helvetica, Verdana, Univers, "MS Trebuchet";
+  font-weight: normal;
+  margin: 0;
+  opacity: 1;
+  overflow-x: hidden;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+
+a {
+  transition-duration: 0.25s;
+  transition-property: color;
+}
+
+
+/*
+  ----------
+  - Header -
+  ----------
+*/
+
+h1 {
+  background: url(img/keleos.png) no-repeat top center;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+h1 a {
+  color: transparent;
+  font-size: 2em;
+  line-height: 157px;
+  margin-left: 50%;
+}
+
+h1 a:hover{
+  background: none;
+  box-shadow: none;
+}
+
+header {
+  background: url(img/background.jpg) ;
+  height: 157px;
+  margin: 70px auto 0 auto;
+}
+
+
+/* -
+  ----------
+*/
+nav {
+  left: -2px;
+  position: relative;
+  top: -251px;
+  width: 101%;
+  z-index: 2;
+}
+
+nav ul {
+ background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.34, rgb(117,38,66)),
+    color-stop(0.82, rgb(87,28,49))
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(117,38,66) 34%,
+    rgb(87,28,49) 82%
+);
+  border-radius: 0;
+  box-shadow: none;
+  height: 80px;
+  margin: -7px 0 0 0;
+  transform:rotate(-1.7deg);
+}
+
+nav li a {
+  border-radius: none;
+  color: #e47f00;
+  display: inline-block;
+  font-variant: small-caps;
+  margin-top: 56px;
+  padding-bottom: 14px;
+}
+
+nav li a:hover {
+  background: url(img/triangle.jpg) no-repeat center bottom;
+  color: white;
+}
+
+nav li a:focus {
+  background: url(img/triangle.jpg) no-repeat center bottom;
+  color: #e47f00;
+}
+
+
+/*
+  ----------
+  - Section -
+  ----------
+*/
+section {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.16, rgb(144,154,0)),
+    color-stop(0.5, rgb(159,170,0)),
+    color-stop(0.85, rgb(144,154,0))
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(144,154,0) 16%,
+    rgb(159,170,0) 50%,
+    rgb(144,154,0) 85%
+);
+  border-bottom: white;
+  border-left: 0;
+  border-right: 0;
+  border-top: white;
+  border-style: double ;
+  display: block; 
+  margin-top: -92px;
+  padding: 5% 10%;
+  text-align: left;
+  z-index: 0;
+}
+
+section article {
+  background:url(img/back_content.jpg)repeat-x bottom white;
+  -webkit-box-shadow: 0px 1px 3px #1a171a;
+  -moz-box-shadow: 0px 1px 3px #1a171a;
+  box-shadow: 0px 1px 3px #1a171a;
+  margin-right: 230px;
+  padding: 0 5% 5% 5%;
+}
+
+section h2 {
+  background-color: #e47f00; 
+  -webkit-box-shadow: 0px 1px 3px #1a171a;
+  -moz-box-shadow: 0px 1px 3px #1a171a;
+  box-shadow: 0px 1px 3px #1a171a; 
+  color: white;
+  display: inline;
+  font-size: 2em;
+  font-weight: normal;
+  margin-left: -10%;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-shadow: none;
+  transform:rotate(-5deg);
+}
+
+dl {
+  margin-top: 50px;
+}
+
+dt {
+  background: url(img/square.jpg) no-repeat 2px;
+  color: #752641;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+
+dd {
+  color: #752641;
+}
+
+
+/*
+  ----------
+  - Aside -
+  ----------
+*/
+aside {
+  background:url(img/back_orange.jpg)repeat-x top left , url(img/back_orange2.jpg)repeat-x bottom #e47f00;
+  bottom: 0;
+  box-shadow: 0px 1px 3px #1a171a;
+  margin: 0 100px 0 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 70px;
+  text-align: right;
+  top: 0;
+  width: 230px;
+  z-index: 1;
+}
+
+aside h2 {
+  background: none;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 224px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+aside h3 {
+  background-color: #752641; 
+  color: white;
+  display: inline;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 10px -30px 10px 0;
+  padding: 2px 5px 2px 5px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+aside li {
+  list-style: none;
+}
+
+aside li a {
+  color: #752641;
+}
+
+aside li a:hover {
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+/*
+  ----------
+  - Footer -
+  ----------
+*/
+footer {
+  border-radius: 0;
+  height: 2.5em;
+  overflow: hidden;
+  padding: 2em 0;
+}
+
+footer ul {
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.65, rgb(117,38,66)),
+    color-stop(1, rgb(87,28,49))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(117,38,66) 65%,
+    rgb(87,28,49) 100%
+);
+  height: 500px;
+  padding: 1em 200px 0 200px;
+  margin: 20px -200px 0 -200px;
+  transform:rotate(-1.7deg);
+  z-index: 2;
+}
+
+footer li a {
+
+  color: white;
+}
+
+footer li a:hover {
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #e47f00;
+}
