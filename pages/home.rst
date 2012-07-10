@@ -2,15 +2,23 @@
  Nos missions conseils
 =======================
 
-Management
-  optimiser la performance de votre équipe officinale, évaluer et développer les compétences de vos collaborateurs, motivation et politique salariale...
+.. class:: bold center
 
-Commercial
-  études de marché, positionnement commercial, fidélisation de la clientèle, politique d'achats...
+**L'équipe de KELEOS vous souhaite la bienvenue !**
 
-Stratégie
-  stratégie d'investissement, recherche d'officine(s), recherche d'associé(s), projets de transfert, implantation en galerie commerciale...
+Keleos est un prestataire de service spécialisé dans le conseil pour les professionnels de santé.
 
-Financier
-  refinancement et optimisation financière, montage de dossiers et recherche de financements, restructuration financière et négociation avec les banques...
+Nos domaines d'expertise sont :
 
+- **La formation E-learning et mix learning**
+- **Les Tests de lisibilité **
+- **Les études qualitatives et quantitatives**
+
+Par sa diversité d'activités, KELEOS vous apporte un ensemble de solutions pour satisfaire vos différents besoins. 
+
+
+.. class:: bold center
+
+**A chaque problème, sa solution !**
+
+Quelque soit votre demande, Keleos vous propose une réponse performante à vos exigences : nous mettons à votre disposition une équipe d'expert pour vous accompagner tout au long de vos projets.
