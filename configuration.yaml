@@ -1,0 +1,14 @@
+name: keleos
+description: Optimisez la performance de votre officine
+public: false
+url: http://www.keleos.fr
+
+menu:
+  - Accueil:
+      link: /home
+  - Qui sommes nous ?:
+      link: /apropos
+  - Conseils :
+      link: /conseils
+  - Contact:
+      link: /contact
