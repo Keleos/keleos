@@ -10,5 +10,12 @@ menu:
       link: /apropos
   - Conseils :
       link: /conseils
+      menu:
+        - Formation:
+            link: /formation
+        - Études:
+            link: /etudes
+        - Tests:
+            link: /tests
   - Contact:
       link: /contact
