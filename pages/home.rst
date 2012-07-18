@@ -6,19 +6,19 @@
 
 **L'équipe de KELEOS vous souhaite la bienvenue !**
 
-Keleos est un prestataire de service spécialisé dans le conseil pour les professionnels de santé.
+KELEOS est une société spécialisée en **conseil et formation dans le secteur de la santé.** 
+KELEOS vous apporte ses multiples compétences que vous soyez professionnels de santé ou laboratoires pharmaceutiques.
+
 
 Nos domaines d'expertise sont :
 
 - **La formation E-learning et mix learning**
 - **Les Tests de lisibilité **
 - **Les études qualitatives et quantitatives**
+- **Le merchandising et l'animation**
 
-Par sa diversité d'activités, KELEOS vous apporte un ensemble de solutions pour satisfaire vos différents besoins. 
+Par sa diversité d'activités, KELEOS apporte un ensemble de solutions adaptés à vos différents besoins. 
+
+Quelque soit votre demande, KELEOS vous propose une réponse performante à vos exigences : nous mettons à votre disposition une équipe d'expert pour vous accompagner tout au long de vos projets.
 
 
-.. class:: bold center
-
-**A chaque problème, sa solution !**
-
-Quelque soit votre demande, Keleos vous propose une réponse performante à vos exigences : nous mettons à votre disposition une équipe d'expert pour vous accompagner tout au long de vos projets.

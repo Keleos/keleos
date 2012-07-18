@@ -9,13 +9,15 @@ menu:
   - Qui sommes nous ?:
       link: /apropos
   - Conseils :
-      link: /conseils
+      link: /
       menu:
-        - Formation:
+        - La Formation:
             link: /formation
         - Études:
             link: /etudes
-        - Tests:
+        - Test de Lisibilité:
             link: /tests
+        - Animation et Merchandising :
+            link: /merchandising
   - Contact:
       link: /contact

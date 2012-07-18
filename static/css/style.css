@@ -58,9 +58,58 @@ a {
 
 p {
   margin: 0; 
-  padding: 0.2em 0;
+  padding: 0.3em 0;
 }
 
+form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+label {
+  color:#606060;
+  display:block;
+  font-weight:bold;
+  margin:5px 0;
+}
+
+textarea, select {
+  border-color: #c7c6c6;
+}
+
+input {
+  border:none;
+  border-bottom:1px dotted #ccc;
+}
+
+label {
+  padding: 0.5em 60% 0.5em 0;
+  text-align: right;
+}
+
+input, select, textarea {
+  background: none;
+  color: #777;
+  left: 47%;
+  margin-top: -0.2em;
+  padding:0.1em;
+  position: absolute;
+  width:300px;
+}
+
+input[type="submit"] {
+  background: #cacaca;
+  border: 1px solid #767676;
+}
+
+
+
+
+.note {
+  font-size: 0.85em;
+  color: #838383;
+  margin-top: 10px;
+}
 
 /*
   ----------
@@ -106,12 +155,12 @@ nav ul {
   text-align: center;
 }
 
-nav li {
+nav ul >  li {
   display: inline-block;
-  padding: 0.2em 0;
+  position: relative;
 }
 
-nav ul li:after {
+nav ul > li:after {
   content: '';
   float: left;
   width: 31px;
@@ -121,19 +170,62 @@ nav ul li:after {
 
 nav ul li:hover:after {
   content:url(img/nav-hover.png);
-
-
-nav ul li a {
-  display: block;
-}
 }
 
 nav ul li a {
   color: #676767;
+  display: block;
+  padding: 0.2em 1em;
 }
 
+nav ul ul {
+  background: #f6f7f7;
+  font-size: 0.85em;
+  display: none;
+  padding: 8px 0;
+  position: absolute;
+  text-align: left;
+  top: 2em;
+}
 
+nav ul li:hover ul {
+  float: left;
+  display: inline-block;
+}
 
+nav ul li ul li {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #e1e2e2;
+  margin: 0 5px;
+}
+
+nav ul ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul ul li:first-child {
+  border-top: none;
+}
+
+nav ul ul li:after {
+  clear:left;
+  float: none;
+  height: 0;
+}
+
+nav ul ul li:hover:after {
+  content: '';
+}
+
+nav ul ul li a {
+  padding: 0.4em 0.5em;
+  width: 10em;
+}
+
+nav ul ul li a:hover, 
+nav ul ul li a:focus {
+  color: #e27f23;
+}
 
 /*
   ----------
@@ -143,9 +235,7 @@ nav ul li a {
 body > section {
   color: #5f5f5f;
   margin: 0 auto;
-  position: relative;
   width: 950px;
-  z-index: 5;
 }
 
 section.page-home article > header {
@@ -191,7 +281,6 @@ section h2 {
   padding: 5px 0;
   font-variant: small-caps;
   letter-spacing: 0.02em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 section header h2:first-letter {
@@ -217,7 +306,7 @@ section h3 {
   line-height: 1em;
 }
 
-section.page-conseils h3 {
+section.page-formation h3 {
   border: none;
   font-size: 2.2em;
   font-variant: small-caps;
@@ -225,20 +314,19 @@ section.page-conseils h3 {
   color: #dd791d;
   letter-spacing: 0.05em;
   margin: 30px 0 8px -25px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 
-section.page-conseils ul {
+section.page-formation ul {
   margin: 0;
 }
 
-section.page-conseils h3:first-letter {
+section.page-formation h3:first-letter {
   color: #fff;
   font-size: 1.1em;
 }
 
-section.page-conseils h3:before {
+section.page-formation h3:before {
   content: '';
   border-radius: 50%;
   background: #dd791d;
@@ -248,7 +336,7 @@ section.page-conseils h3:before {
   margin: -0.5em -0.8em 0 0;
 }
 
-section.page-conseils h4 {
+section.page-formation h4 {
   color: #4a4a4a;
   font-size: 1.8em;
   font-variant: small-caps;
@@ -318,6 +406,19 @@ section.page-contact .address {
 section.page-contact .phone {
   background: url(img/phone.png) no-repeat 15px 0;
 }
+
+
+/* - Page tests de lisibilité - */
+section.page-tests p {
+  padding-left: 50px;
+  width: 380px;
+}
+
+section.page-tests section {
+  background: #fff url(img/notice_img.png) no-repeat top right;
+  min-height: 345px;
+}
+
 
 
 /*
