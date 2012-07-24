@@ -10,4 +10,4 @@ Tests de Lisibilité
 
     Pour plus d'informations, `cliquez ici <http://www.labsharing.fr/>`_.
     
-    KELEOS conçoit également des notices de médicaments (mock up: rédatcion graphsime, ...)
+    KELEOS conçoit également des notices de médicaments (mock up : rédaction, graphisme...)

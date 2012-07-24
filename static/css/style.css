@@ -117,6 +117,7 @@ input[type="submit"] {
   ----------
 */
 body > header {
+  background: url(img/header-slogan.png) no-repeat 95%  30px;
   height: 135px;
 }
 
@@ -147,7 +148,7 @@ nav {
   position: absolute;
   right: 3%;
   top: 7em;
-  z-index: 2;
+  z-index: 10;
 }
 
 nav ul {
@@ -224,6 +225,7 @@ nav ul ul li a {
 
 nav ul ul li a:hover, 
 nav ul ul li a:focus {
+  background: #fff;
   color: #e27f23;
 }
 
@@ -244,10 +246,12 @@ section.page-home article > header {
 
 
 section article section {
-  background: #fff url(img/shadow.png) no-repeat center 1px;
+  background: #fff url(img/shadow-txt.png) no-repeat center 1px;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
-  padding: 5% 50px;
+  padding: 4.5% 50px;
+  position: relative;
   text-align: justify;
+  z-index: 5;
 }
 
 section article section section {
@@ -267,7 +271,12 @@ section.page-home article section {
   padding-top: 2%;
 }
 
+p.bold {
+  font-weight: bold;
+}
+
 p.bold.center {
+  font-weight: bold;
   font-size: 1.25em;
   text-align: center;
 }
@@ -306,7 +315,9 @@ section h3 {
   line-height: 1em;
 }
 
-section.page-formation h3 {
+section.page-formation h3, 
+section.page-etudes h3,
+section.page-merchandising h3 {
   border: none;
   font-size: 2.2em;
   font-variant: small-caps;
@@ -321,22 +332,34 @@ section.page-formation ul {
   margin: 0;
 }
 
-section.page-formation h3:first-letter {
+section.page-formation h3:first-letter, 
+section.page-etudes h3:first-letter ,
+section.page-merchandising h3:first-letter {
   color: #fff;
   font-size: 1.1em;
-}
+  margin-right: 0.1em;
+  float: left;
+  display: block;
+  width: 1.1em; 
+  text-align: right;
+  height: 0.9em;
+  }
 
-section.page-formation h3:before {
+
+section.page-formation h3:before, 
+section.page-etudes h3:before,
+section.page-merchandising h3:before {
   content: '';
   border-radius: 50%;
   background: #dd791d;
   float: left;
   width: 1.5em;
   height: 1.5em;
-  margin: -0.5em -0.8em 0 0;
+  margin: -0.5em -1.35em 0 0;
 }
 
-section.page-formation h4 {
+section.page-formation h4, 
+section.page-etudes h4 {
   color: #4a4a4a;
   font-size: 1.8em;
   font-variant: small-caps;
@@ -409,9 +432,10 @@ section.page-contact .phone {
 
 
 /* - Page tests de lisibilité - */
-section.page-tests p {
-  padding-left: 50px;
-  width: 380px;
+section.page-tests section div.test-lisibilite {
+  background: url(img/picto.png) no-repeat top left;
+  padding:50px 0 50px 65px;
+  width: 360px;
 }
 
 section.page-tests section {
