@@ -21,3 +21,6 @@ menu:
             link: /merchandising
   - Contact:
       link: /contact
+
+project (git):
+  path: keleos
