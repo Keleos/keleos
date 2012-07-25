@@ -27,7 +27,7 @@ Formulaire de Contact
 ..  raw:: html
 
     <form>
-      <label> Demande de devis
+      <label>Demande de devis :
         <select>
           <option value="1">Vitaleform.com</option>
           <option value="2">Vitalesoft.com</option>
@@ -36,19 +36,19 @@ Formulaire de Contact
           <option value="5">Animation et Merchandising</option>
          </select>
       </label>
-      <label>Raison social* : <input type="text" /></label>
-      <label>Civilité* :
+      <label>Raison sociale* : <input type="text" /></label>
+      <label>Civilité* :
         <select>
           <option value="1">Madame</option>
           <option value="2">Monsieur</option>
         </select>
       </label>
-      <label>Nom* : <input type="text"/></label>
-      <label>Prénom* : <input type="text"/></label>
-      <label>Adresse* : <textarea></textarea></label>
-      <label>Code Postal* : <input type="text"/></label>
-      <label>Ville* : <input type="text"/></label>
-      <label>E-mail* : <input type="text"/></label>
-      <label>Téléphone : <input type="text"/></label>
+      <label>Nom* : <input type="text"/></label>
+      <label>Prénom* : <input type="text"/></label>
+      <label>Adresse* : <textarea></textarea></label>
+      <label>Code Postal* : <input type="text"/></label>
+      <label>Ville* : <input type="text"/></label>
+      <label>E-mail* : <input type="text"/></label>
+      <label>Téléphone : <input type="text"/></label>
       <input type="submit" />
     </form>
