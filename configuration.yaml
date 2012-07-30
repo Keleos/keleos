@@ -21,3 +21,10 @@ menu:
             link: /merchandising
   - Contact:
       link: /contact
+
+footer:
+  - Site réalisé par Kozea:
+      link: http://kozea.fr/
+
+project (git):
+  path: keleos
