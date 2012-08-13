@@ -12,10 +12,10 @@ KELEOS vous apporte ses multiples compétences que vous soyez professionnels de 
 
 Nos domaines d'expertise sont :
 
-- **La formation e-learning et mix learning**
-- **Les tests de lisibilité **
-- **Les études qualitatives et quantitatives**
-- **Le merchandising et l'animation**
+- `La formation e-learning et mix learning </formation>`_
+- `Les tests de lisibilité </tests>`_
+- `Les études qualitatives et quantitatives <etudes>`_
+- `Le merchandising et l'animation <merchandising>`_
 
 Par sa diversité d'activités, KELEOS apporte un ensemble de solutions adaptées à vos différents besoins.
 

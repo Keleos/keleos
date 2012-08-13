@@ -177,7 +177,7 @@ nav ul li:hover:after {
 nav ul li a {
   color: #676767;
   display: block;
-  padding: 0.2em 1em;
+  padding: 0.1em 1em;
 }
 
 nav ul ul {
@@ -187,7 +187,7 @@ nav ul ul {
   padding: 8px 0;
   position: absolute;
   text-align: left;
-  top: 2em;
+  top: 1.9em;
   left: 1em;
 }
 
@@ -306,9 +306,9 @@ section article header h2:after {
   border-radius: 50%;
   background: #fff;
   float: left;
-  width: 2em;
-  height: 2em;
-  margin: -0.6em -0.8em 0 0;
+  width: 1.8em;
+  height: 1.8em;
+  margin: -0.4em -0.9em 0 0;
 }
 
 section h3 {
@@ -317,6 +317,11 @@ section h3 {
   font-size: 1.8em;
   font-weight: normal;
   line-height: 1em;
+}
+
+section.page-formation a, 
+section.page-home a {
+  font-weight: bold;
 }
 
 section.page-formation h3, 
