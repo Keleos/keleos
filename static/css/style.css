@@ -387,6 +387,7 @@ section section.ecoform,
 section section.flexiform {
   background: no-repeat 0 center;
   display: table-cell;
+  font-size: 90%;
   padding-left: 100px;
   width: 305px;
 }
