@@ -28,3 +28,4 @@ footer:
 
 project (git):
   path: keleos
+  branch: master
