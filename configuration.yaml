@@ -5,7 +5,7 @@ url: http://www.keleos.fr
 
 menu:
   - Accueil:
-      link: /home
+      link: /
   - Qui sommes nous ?:
       link: /apropos
   - Conseils :
